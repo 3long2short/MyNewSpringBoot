@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /springboot
+
+logging:
+  config: classpath:logback-spring.xml
+
+#spring:
+#  redis:
+#    host: 101.201.36.29
+#    port: 6379
+#    database: 0
+#    timeout: 1800000
+#
+#    lettuce:
+#      pool:
+#        max-active: 20
+#        max-wait: -1
+#        max-idle: 5
+#        min-idle: 0
